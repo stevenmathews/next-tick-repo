@@ -1,0 +1,24 @@
+{
+  "name": "next-tick-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "1.0.0-rc.2"
+  },
+  "dependencies": {
+    "@cycle/dom": "^22.0.0",
+    "@cycle/run": "^5.1.0",
+    "@cycle/state": "^1.0.0",
+    "@cycle/time": "^0.16.0",
+    "html-looks-like": "^1.0.3",
+    "snabbdom-to-html": "^5.1.1"
+  }
+}
